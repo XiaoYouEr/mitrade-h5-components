@@ -1,0 +1,16 @@
+{
+  "name": "mitrade-h5-components",
+  "version": "1.0.0",
+  "description": "Components commonly used in Mitrade",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js -p",
+    "prepublish": "npm run build"
+  },
+  "files": [
+    "dist"
+  ],
+  "author": "youyou.xiao",
+  "license": "ISC"
+}
